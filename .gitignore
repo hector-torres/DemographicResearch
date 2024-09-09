@@ -1,4 +1,4 @@
-.idea
+.idea/
 .venv/
 data/databases/*.db
 data/geospatial_files/shapefiles/*.dbf
