@@ -1,4 +1,6 @@
 .idea
 .venv/
-data/databases/*
-data/geospatial_files/*
+data/databases/*.db
+data/geospatial_files/shapefiles/*.dbf
+data/geospatial_files/shapefiles/*.shp
+data/geospatial_files/shapefiles/*.shx

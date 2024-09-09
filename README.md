@@ -10,7 +10,7 @@ load that data into our database, or as `EDA` notebooks that use database data t
 ## Requirements
 Census Bureau Shapefiles are required in order for the ETL process for ACS data to be properly transformed and loaded 
 into the database. If Shapefiles are not available locally then the `CensusBureau_Shapefiles_ETL` notebook must be run 
-before running `CensusBureau_ACS-1yr_ETL`.
+before running `CensusBureau_ACS-<level_of_analysis>_ETL` notebooks.
 
 ## Notes
 ACS Release Schedule

@@ -1,0 +1,24 @@
+# Files
+
+- shapefiles
+  - congressional_districts 
+    - 118th_congress
+      - tl_2023_48_cd118.dbf 
+      - tl_2023_48_cd118.shp 
+      - tl_2023_48_cd118.shx
+  - counties 
+    - tl_2023_us_county.dbf 
+    - tl_2023_us_county.shp 
+    - tl_2023_us_county.shx
+  - places 
+    - tl_2023_48_place.dbf 
+    - tl_2023_48_place.shp 
+    - tl_2023_48_place.shx
+  - pumas 
+    - tl_2023_48_puma20.dbf 
+    - tl_2023_48_puma20.shp
+    - tl_2023_48_puma20.shx
+  - zip_code_tabulation_areas
+    - tl_2023_us_zcta520.dbf 
+    - tl_2023_us_zcta520.shp 
+    - tl_2023_us_zcta520.shx
