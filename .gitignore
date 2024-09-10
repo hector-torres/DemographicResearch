@@ -1,10 +1,6 @@
 .idea/
 .venv/
-data/databases/*.db
-data/datasets/texas_legislative_council/*.csv
-data/geospatial_files/shapefiles/census_bureau/*.dbf
-data/geospatial_files/shapefiles/census_bureau/*.shp
-data/geospatial_files/shapefiles/census_bureau/*.shx
+data/
 data/geospatial_files/shapefiles/texas_legislative_council/2022/*.dbf
 data/geospatial_files/shapefiles/texas_legislative_council/2022/*.shp
 data/geospatial_files/shapefiles/texas_legislative_council/2022/*.shx
