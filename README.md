@@ -1,4 +1,4 @@
-# Demographics Research
+# Demographic Research
 
 ## Overview
 The goal of this project is to use data from various sources in order to gain insights into the demographics of 
