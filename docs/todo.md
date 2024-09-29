@@ -1,8 +1,10 @@
 # To-Do Lists
 
 ## Portfolio and Project
-- [ ] Operationalize and document the portfolio, the project, and the product concepts of operations. 
-  - [ ] Spin off portfolio and project to-do lists, documents, files, etc., into their own spaces
+- [ ] Operationalize and document the portfolio, the project, and the product concepts of operations.
+  - [ ] Create GitHub `organization`
+    - [ ] Spin off portfolio and project to-do lists, documents, files, etc., into their own spaces
+    - [ ] Create portfolio and project wikis for log-term documentation
 
 ## Product: Demographic Research
 ### Features
