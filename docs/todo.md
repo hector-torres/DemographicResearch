@@ -23,3 +23,8 @@ registered voters and other key voting characteristic variables.
   - [ ] Identify block groups within each PUMA area
   - [ ] Develop/identify analytical toolset for calculating shifts
 
+#### Bug Cleanup and Performance Updates
+User story: as a user, I would like the codebase to be high available, highly resilient, and highly performant.
+
+- [ ] Add local file backups of Census Bureau ACS table crosswalks and table name datasets
+
