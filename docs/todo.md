@@ -1,10 +1,12 @@
-# Product To-Do List
+# To-Do Lists
 
-## Project
-[ ] Operationalize and document the portfolio, the project, and the product concepts of operations. 
+## Portfolio and Project
+- [ ] Operationalize and document the portfolio, the project, and the product concepts of operations. 
+  - [ ] Spin off portfolio and project to-do lists, documents, files, etc., into their own spaces
 
-## Features
-### Visual Exploratory Data Analysis
+## Product: Demographic Research
+### Features
+#### Visual Exploratory Data Analysis
 User story: as a user, I would like to hover over a targeted geography on a map and see its Census Bureau block group and Texas Leg. Council VTD, 
 total population and other key demographic variables (5yr estimate and calculated 1yr estimate), and the number of 
 registered voters and other key voting characteristic variables.
