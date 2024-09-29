@@ -1,10 +1,12 @@
 # Product To-Do List
 
-## Features
+## Project
+[ ] Operationalize and document the portfolio, the project, and the product concepts of operations. 
 
+## Features
 ### Visual Exploratory Data Analysis
 User story: as a user, I would like to hover over a targeted geography on a map and see its Census Bureau block group and Texas Leg. Council VTD, 
-total population and other key demographic variables (5yr estimate and calulcated 1yr estimate), and the number of 
+total population and other key demographic variables (5yr estimate and calculated 1yr estimate), and the number of 
 registered voters and other key voting characteristic variables.
 
 
