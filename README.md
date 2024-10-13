@@ -5,11 +5,15 @@ The goal of this project is to use data from various sources in order to gain in
 targeted geographies. 
 
 Notebooks contained in this project can be categorized as `ETL` notebooks that extract data from source systems and 
-load that data into our database, or as `EDA` notebooks that use database data to produce analyses. 
+load that data into our database, or others those titles reflect their usage. 
+
+The primary notebook here is `geography_and_table_export_selector`, which allows users to select targeted geographies 
+and tables from the data available in order to produce files that can be imported into Tableau Public for further 
+analysis. 
 
 ## Order of Operations
-Because of the interconnectness of some of the datasets being extracted and analyzed, some ETL notebooks (and their 
-assocaited databses loaded) must be run before other notebooks can execute successfully. This section outlines the 
+Because of the interconnectedness of some of the datasets being extracted and analyzed, some ETL notebooks (and their 
+associated databases loaded) must be run before other notebooks can execute successfully. This section outlines the 
 order in which notebooks or ETL scripts must be executed.
 
 ### 1. Census Bureau Shapefiles
