@@ -46,7 +46,7 @@ Code: `ETL/tx_leg_council_comprehensive_election_dataset_ETL.ipynb`
 Output: `data/datasets/texas_legislative_council`
 
 This will extract data from the Texas Legislative Council, the research arm of the Texas Legislature, from their FTP 
-servers as comma-separated value files for all elections available. There are no deltas availble (as of October 2024), 
+servers as comma-separated value files for all elections available. There are no deltas available (as of October 2024), 
 so full datasets must be downloaded after every election.
 
 ### 4. Texas Legislative Council Comprehensive Election Datasets
