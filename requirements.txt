@@ -6,3 +6,7 @@ sqlalchemy==2.0.30
 numpy
 plotly==5.24.1
 ipywidgets
+geopy==2.4.1
+python-dotenv
+openpyxl
+tqdm
