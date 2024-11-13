@@ -28,7 +28,7 @@ that same level of analysis to be properly transformed and loaded into the datab
 locally then the `census_bureau_shapefiles_ETL` notebook must be run before running 
 `census_bureau_acs-<level_of_analysis>_ETL` or any `EDA` notebooks.
 
-### 3. Census Bureau ACS Tables
+### 2. Census Bureau ACS Tables
 Code: `ETL/census_bureau_acs_ETL.ipynb`
 Output: `data/databases/census_bureau_census_<survey_type>_<survey_year>_<geography_type>.db`
 
@@ -37,15 +37,30 @@ group, and larger than block group) across two surveys (ACS Supplemental Estimat
 estimates), totalling approximately 60 tables for non-block group geographies and around 1100 tables for block group 
 geographies.
 
-
-### 2. Census Bureau Crosswalks
+### 3. Census Bureau Crosswalks
 Code: `ETL/census_bureau_acs_table_crosswalk_etl.ipynb`
 Output: `data/databases/census_bureau_census_acs-acsse_crosswalk.db`
 
 This notebook extracts the common tables from Census Bureau ACS Supplemental Estimates 1-year data and ACS 5-year data
 so that we can have common reference points of analysis across both time and space. 
 
-### 3. Texas Legislative Council Comprehensive Election Datasets
+### 4. Texas Secratary of State Voter Data File
+Code: `ETL/tx_sec_of_state_voter_data_file_ETL.ipynb`
+Output: `data/databases/texas_secretary_of_state/voter_data_file.db`
+
+This notebook extracts voter data from Texas Secretary of State fixed width delimited file in order to begin analysis of 
+individual voter patterns.
+
+#### 4.1. Address Geocoding
+Code: `ETL/address_geocode_ETL.ipynb`
+Output: `data/databases/texas_secretary_of_state/voter_data_file.db`
+
+Once the database is loaded, it is run against the address geocoding notebook so as to be able to conduct geospatial 
+analysis on individual voter data. 
+
+## Datasets Awaiting Future Workflows
+
+### 1. Texas Legislative Council Comprehensive Election Datasets
 Code: `ETL/tx_leg_council_comprehensive_election_dataset_ETL.ipynb`
 Output: `data/datasets/texas_legislative_council`
 
@@ -53,7 +68,7 @@ This will extract data from the Texas Legislative Council, the research arm of t
 servers as comma-separated value files for all elections available. There are no deltas available (as of October 2024), 
 so full datasets must be downloaded after every election.
 
-### 4. Texas Legislative Council Comprehensive Election Datasets
+### 2. Texas Legislative Council Comprehensive Election Datasets
 Code: `ETL/tx_leg_council_comprehensive_election_dataset_ETL.ipynb`
 Output: `data/databases/texas_legislative_council/texas_legislative_council_election_dataset_2022.db`
 
@@ -61,7 +76,7 @@ In order to normalize and organize TLC data, this notebook creates a database ta
 extracts - this keeps a historical record of their data if they ever change availability or content of previous year 
 data.
 
-### 5. Texas Legislative Council Voting Tabulation District Shapefiles
+### 3. Texas Legislative Council Voting Tabulation District Shapefiles
 Code: TBD (manual process as of October 2024)
 Output: `data/geospatial_files/shapefiles/texas_legislative_council/<analysis_year>/VTDs_<analysis_short_year><election_type>.[shp, dbf, shx]`
 
