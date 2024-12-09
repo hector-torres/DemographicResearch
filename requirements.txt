@@ -10,3 +10,6 @@ geopy==2.4.1
 python-dotenv
 openpyxl
 tqdm
+folium
+matplotlib
+mapclassify
